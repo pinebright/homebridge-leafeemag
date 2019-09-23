@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-leafeemag",
+  "version": "0.1.0",
+  "description": "leafee mag for Homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kosuke MATSUOKA",
+  "repository": {
+    "type": "git",
+    "url": "https://github/pinebright/homebridge-leafeemag.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "bluetooth",
+    "bluetooth low energy"
+  ],
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.6"
+  },
+  "dependencies": {
+    "cron": "^1.3.0"
+  }
+}
